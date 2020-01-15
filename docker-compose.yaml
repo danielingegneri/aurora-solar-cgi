@@ -1,0 +1,8 @@
+version: '3'
+services:
+  aurora:
+    build: .
+    ports:
+    - "8005:80"
+    devices:
+    - "/dev/ttyUSB0:/dev/ttyUSB0"
